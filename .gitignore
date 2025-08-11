@@ -1,0 +1,86 @@
+# === General OS Files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# === Node.js / React (WebStorm) ===
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*.local
+.vscode/
+coverage/
+*.local
+*.cache
+.next/
+out/
+# WebStorm IDE files
+.idea/
+*.iml
+
+# === Python (PyCharm) ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# PyCharm IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+ENV.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# === Git ===
+.git/
+.gitattributes
+
+# === Others ===
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+
+# === Custom Additions (Optional) ===
+# You can add any additional folders specific to your project setup here
+# For example:
+# /frontend/.env.local
+# /backend/.env.dev
